@@ -1,0 +1,12 @@
+*.cma
+*.cmi
+*.cmo
+*.cmx
+*.cmxa
+*.o
+*~
+._bcdi/
+._d/
+._ncdi/
+*.top
+*.a

@@ -2,7 +2,7 @@
 # http://mmottl.github.io/ocaml-makefile/
 SOURCES=lazyList.mli lazyList.ml rand.mli rand.ml math.mli math.ml prime.mli prime.ml
 RESULT=camlprime
-PACKS=unix irc num str ethread
+PACKS=num
 
 LIBINSTALL_FILES = $(wildcard META *.mli *.cmi *.cma *.cmxa *.a *.so)
 OCAMLDOCFLAGS = -stars
