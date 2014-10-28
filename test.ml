@@ -46,6 +46,7 @@ let _ =
     let out = Math.modexp_rtl (Int 4) (Int 13) (Int 497) in
       Printf.printf "4^13 mod 497 = %s (should be 445)\n%!" (string_of_num out);
 
+    (* Note that 679 is not a prime number. *)
     let primelist = [ Int 679; Int 977; Int 13; Int 1013; Int 677;
                       num_of_string "622288097498926496141095869268883999563096063592498055290461";
                       num_of_string "669483106578092405936560831017556154622901950048903016651289" ] in
