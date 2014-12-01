@@ -1,0 +1,13 @@
+#+TITLE: CamlPrime - A Prime Number Library for OCaml
+#+LANGUAGE: en
+#+AUTHOR: Erik L. Arneson
+#+EMAIL: dybbuk@LNouv.com
+#+KEYWORDS: ocaml, prime numbers, miller-rabin, lazy list, functional
+#+OPTIONS: num:nil
+
+* A Prime Number Library for OCaml
+
+I haven't written a README for this library yet. If you would like to learn a 
+little about this thing, please read this post on my blog: 
+http://arnesonium.com/2014/11/prime-number-library-for-ocaml/
+
