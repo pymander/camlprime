@@ -1,4 +1,4 @@
-version = "0.1"
+version = "0.5"
 description = "Primality testing with lazy lists of prime numbers"
 requires = "num"
 archive(byte) = "camlprime.cma"
