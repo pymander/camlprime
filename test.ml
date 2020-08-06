@@ -13,14 +13,14 @@ let _ =
                   (677, 540);
                   (max_int, 5900) ] in
     (*Math.modexp_rtl b e m*)
-    List.map
+  ignore (List.map
       (fun (x, y) ->
          let xn = nat_of_int x
          and yn = nat_of_int y in
            Math.mod_nat xn yn;
            Printf.printf "%d mod %d = %s (should be %d)\n%!"
              x y (string_of_nat xn) (x mod y))
-      modlist;
+      modlist);
 
     let melist = [ (5,9,8);
                    (5,12,13);
@@ -29,13 +29,13 @@ let _ =
                    (3,6,7);
                    (2,18,19);
                    (21,3,87) ] in
-      List.map
+    ignore (List.map
         (fun (b,e,m) ->
            let should_be = (int_of_float ((float_of_int b) ** (float_of_int e))) mod m
            and me_out = Math.modexp_rtl (Int b) (Int e) (Int m) in
              Printf.printf "%d^%d mod %d = %s (should be %d)\n%!"
                b e m (string_of_num me_out) should_be)
-        melist;
+        melist);
 
   let b = Int 76001
   and e = Int 1900100
